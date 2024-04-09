@@ -132,7 +132,7 @@ input::placeholder{
      font-size: 0.8rem
 }
 
-button{
+.signbutton{
      width: 100%;
      background-color: #72DB73;
      height: 55px;

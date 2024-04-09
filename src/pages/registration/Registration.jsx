@@ -78,7 +78,7 @@ console.log(formInput.consent)
             <br />
             {isNotEmpty && <p className={style.warnc}>Check this box if you want to proceed</p>}
             </div>
-            <button onClick={showDetail}>SIGN UP</button>
+            <button className={style.signbutton} onClick={showDetail}>SIGN UP</button>
             <p className={style.tc1}>By clicking on Sign up. you agree to Superapp <span>Terms and Conditions of Use</span></p>
             <p className={style.tc2}>To learn more about how Superapp collects, uses, shares and protects your personal data please head Superapp <span>Privacy Policy</span></p>
           </div>
